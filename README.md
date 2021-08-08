@@ -15,7 +15,7 @@ int sockfd(domain,type,protocol) -->sockfd means socket descriptor
                                  (i)SOCK_STREAM --> TCP(reliable and connection oriented)
                                  (ii)SOCK_DGRAM --> UDP(unreliable and connectionless)
 
-                                 -->protocol is basically the IP and this should be same on server and clienrt side.
+                                 -->protocol is basically the IP and this should be same on server and client side.
 
 
 STEP 2(SETSOCKOPT) :- in this step we'll create a function called setsocktopt , basically this function sets the current value for a socket option associated with socket of any type and in any state or in short this also helps in controloing the options for the socket which were referred by file descriptor.Pros of it is that , it doesn't allows the error like address already in use to occur. So the syntax is :-
