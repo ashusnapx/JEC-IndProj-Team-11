@@ -1,46 +1,40 @@
 # JEC-IndProj-Team-11
 ɪɴ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴡᴇ'ʟʟ ᴍᴀᴋᴇ ᴀ ᴘᴇᴇʀ-ᴛᴏ-ᴘᴇᴇʀ ꜰɪʟᴇ ꜱʜᴀʀɪɴɢ ꜱʏꜱᴛᴇᴍ , ᴡʜɪᴄʜ ɪꜱ ꜱɪᴍɪʟᴀʀ ᴛᴏ ᴏʀ ʀᴇꜱᴇᴍʙʟᴇꜱ ʟɪᴋᴇ ʙɪᴛ-ᴛᴏʀʀᴇɴᴛ.
 ᴀꜱꜱɪɢɴᴍᴇɴᴛ 1:- ᴛᴏ ʟᴇᴀʀɴ ʜᴏᴡ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ꜱᴇʀᴠᴇʀ ᴀɴᴅ ᴄʟɪᴇɴᴛ ɪɴᴛᴇʀꜰᴀᴄᴇ ᴀᴋᴀ ꜱᴏᴄᴋᴇᴛ.
-this is the server side made by team 11 which consists of Aditi Jain , Hritik Kumar and Ashutosh Kumar
-there are various steps to create a server :
+
+ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ꜱᴇʀᴠᴇʀ ꜱɪᴅᴇ ᴍᴀᴅᴇ ʙʏ ᴛᴇᴀᴍ 11 ᴡʜɪᴄʜ ᴄᴏɴꜱɪꜱᴛꜱ ᴏꜰ ᴀᴅɪᴛɪ ᴊᴀɪɴ , ʜʀɪᴛɪᴋ ᴋᴜᴍᴀʀ ᴀɴᴅ ᴀꜱʜᴜᴛᴏꜱʜ ᴋᴜᴍᴀʀ
+ᴛʜᴇʀᴇ ᴀʀᴇ ᴠᴀʀɪᴏᴜꜱ ꜱᴛᴇᴘꜱ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ꜱᴇʀᴠᴇʀ :
+
+ꜱᴛᴇᴘ 1(ꜱᴇʀᴠᴇʀ ᴄʀᴇᴀᴛɪᴏɴ) :- ɪɴ ᴛʜɪꜱ ꜱᴛᴇᴘ ᴡᴇ ʜᴀᴠᴇ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ꜱᴏᴄᴋᴇᴛ. ꜱʏɴᴛᴀx ꜰᴏʀ ꜱᴏᴄᴋᴇᴛ ɪꜱ 
+ɪɴᴛ ꜱᴏᴄᴋꜰᴅ(ᴅᴏᴍᴀɪɴ,ᴛʏᴘᴇ,ᴘʀᴏᴛᴏᴄᴏʟ) -->ꜱᴏᴄᴋꜰᴅ ᴍᴇᴀɴꜱ ꜱᴏᴄᴋᴇᴛ ᴅᴇꜱᴄʀɪᴘᴛᴏʀ
+
+                                 -->ᴅᴏᴍᴀɪɴ ᴀʀᴇ ᴛʜᴇ ᴄᴏᴍᴍᴜɴɪᴄᴀᴛɪᴏɴ ᴅᴏᴍᴀɪɴ(ᴇɢ. ᴀꜰ_ɪɴᴇᴛ ᴀɴᴅ ᴀꜰ_ɪɴᴇᴛ6)
+
+                                 -->ᴛʏᴘᴇ ᴀʀᴇ ʙᴀꜱɪᴄᴀʟʟʏ ᴄᴏᴍᴍᴜɴɪᴄᴀᴛɪᴏɴ ᴛʏᴘᴇ
+                                 (ɪ)ꜱᴏᴄᴋ_ꜱᴛʀᴇᴀᴍ --> ᴛᴄᴘ(ʀᴇʟɪᴀʙʟᴇ ᴀɴᴅ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ᴏʀɪᴇɴᴛᴇᴅ)
+                                 (ɪɪ)ꜱᴏᴄᴋ_ᴅɢʀᴀᴍ --> ᴜᴅᴘ(ᴜɴʀᴇʟɪᴀʙʟᴇ ᴀɴᴅ ᴄᴏɴɴᴇᴄᴛɪᴏɴʟᴇꜱꜱ)
+
+                                 -->ᴘʀᴏᴛᴏᴄᴏʟ ɪꜱ ʙᴀꜱɪᴄᴀʟʟʏ ᴛʜᴇ ɪᴘ ᴀɴᴅ ᴛʜɪꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ꜱᴀᴍᴇ ᴏɴ ꜱᴇʀᴠᴇʀ ᴀɴᴅ ᴄʟɪᴇɴᴛ ꜱɪᴅᴇ.
 
 
-
-STEP 1(SERVER CREATION) :- in this step we have to create a socket. syntax for socket is 
-int sockfd(domain,type,protocol) -->sockfd means socket descriptor
-
-                                 -->domain are the communication domain(eg. AF_INET and AF_INET6)
-
-                                 -->type are basically communication type
-                                 (i)SOCK_STREAM --> TCP(reliable and connection oriented)
-                                 (ii)SOCK_DGRAM --> UDP(unreliable and connectionless)
-
-                                 -->protocol is basically the IP and this should be same on server and client side.
-
-
-STEP 2(SETSOCKOPT) :- in this step we'll create a function called setsocktopt , basically this function sets the current value for a socket option associated with socket of any type and in any state or in short this also helps in controloing the options for the socket which were referred by file descriptor.Pros of it is that , it doesn't allows the error like address already in use to occur. So the syntax is :-
-int setsocktopt
+ꜱᴛᴇᴘ 2(ꜱᴇᴛꜱᴏᴄᴋᴏᴘᴛ) :- ɪɴ ᴛʜɪꜱ ꜱᴛᴇᴘ ᴡᴇ'ʟʟ ᴄʀᴇᴀᴛᴇ ᴀ ꜰᴜɴᴄᴛɪᴏɴ ᴄᴀʟʟᴇᴅ ꜱᴇᴛꜱᴏᴄᴋᴛᴏᴘᴛ , ʙᴀꜱɪᴄᴀʟʟʏ ᴛʜɪꜱ ꜰᴜɴᴄᴛɪᴏɴ ꜱᴇᴛꜱ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴠᴀʟᴜᴇ ꜰᴏʀ ᴀ ꜱᴏᴄᴋᴇᴛ ᴏᴘᴛɪᴏɴ ᴀꜱꜱᴏᴄɪᴀᴛᴇᴅ ᴡɪᴛʜ ꜱᴏᴄᴋᴇᴛ ᴏꜰ ᴀɴʏ ᴛʏᴘᴇ ᴀɴᴅ ɪɴ ᴀɴʏ ꜱᴛᴀᴛᴇ ᴏʀ ɪɴ ꜱʜᴏʀᴛ ᴛʜɪꜱ ᴀʟꜱᴏ ʜᴇʟᴘꜱ ɪɴ ᴄᴏɴᴛʀᴏʟᴏɪɴɢ ᴛʜᴇ ᴏᴘᴛɪᴏɴꜱ ꜰᴏʀ ᴛʜᴇ ꜱᴏᴄᴋᴇᴛ ᴡʜɪᴄʜ ᴡᴇʀᴇ ʀᴇꜰᴇʀʀᴇᴅ ʙʏ ꜰɪʟᴇ ᴅᴇꜱᴄʀɪᴘᴛᴏʀ.ᴘʀᴏꜱ ᴏꜰ ɪᴛ ɪꜱ ᴛʜᴀᴛ , ɪᴛ ᴅᴏᴇꜱɴ'ᴛ ᴀʟʟᴏᴡꜱ ᴛʜᴇ ᴇʀʀᴏʀ ʟɪᴋᴇ ᴀᴅᴅʀᴇꜱꜱ ᴀʟʀᴇᴀᴅʏ ɪɴ ᴜꜱᴇ ᴛᴏ ᴏᴄᴄᴜʀ. ꜱᴏ ᴛʜᴇ ꜱʏɴᴛᴀx ɪꜱ :-
+ɪɴᴛ ꜱᴇᴛꜱᴏᴄᴋᴛᴏᴘᴛ
 (
-    socket     s;
-    int        level;
-    int        optname;
-    const char *optval;
-    int        optlen;
+    ꜱᴏᴄᴋᴇᴛ     ꜱ;
+    ɪɴᴛ        ʟᴇᴠᴇʟ;
+    ɪɴᴛ        ᴏᴘᴛɴᴀᴍᴇ;
+    ᴄᴏɴꜱᴛ ᴄʜᴀʀ *ᴏᴘᴛᴠᴀʟ;
+    ɪɴᴛ        ᴏᴘᴛʟᴇɴ;
 )
-FOR MORE INFO I'M PUTTING THIS LINK :- https://docs.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-setsockopt
+ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ɪ'ᴍ ᴘᴜᴛᴛɪɴɢ ᴛʜɪꜱ ʟɪɴᴋ :- ʜᴛᴛᴘꜱ://ᴅᴏᴄꜱ.ᴍɪᴄʀᴏꜱᴏꜰᴛ.ᴄᴏᴍ/ᴇɴ-ᴜꜱ/ᴡɪɴᴅᴏᴡꜱ/ᴡɪɴ32/ᴀᴘɪ/ᴡɪɴꜱᴏᴄᴋ/ɴꜰ-ᴡɪɴꜱᴏᴄᴋ-ꜱᴇᴛꜱᴏᴄᴋᴏᴘᴛ
 
+ꜱᴛᴇᴘ 3(ʙɪɴᴅ) :- ɪɴ ᴛʜɪꜱ ꜱᴛᴇᴘ ᴡᴇ ᴍᴀᴋᴇ ᴀ ʀɪꜱʜᴛᴀ ʙᴇᴛᴡᴇᴇɴ ꜱᴏᴄᴋᴇᴛ ᴡɪᴛʜ ᴀᴅᴅʀᴇꜱꜱ ᴀɴᴅ ᴘᴏʀᴛ ɴᴜᴍʙᴇʀ, ꜱᴏ ᴛʜᴇ ꜱʏɴᴛᴀx ɪꜱ :-
+ɪɴᴛ ʙɪɴᴅ(ɪɴᴛ ꜱᴏᴄᴋꜰᴅ , ᴄᴏɴꜱᴛ ꜱᴛʀᴜᴄᴛ ꜱᴏᴄᴋᴀᴅᴅʀ *ᴀᴅᴅʀ , ꜱᴏᴄᴋʟᴇɴ_ᴛ ᴀᴅᴅʀʟᴇɴ)
 
-step 3(BIND) :- in this step we make a rishta between socket with address and port number, so the syntax is :-
-int bind(int sockfd , const struct sockaddr *addr , socklen_t addrlen)
+ꜱᴛᴇᴘ 4(ʟɪꜱᴛᴇɴ) :- ɪɴ ᴛʜɪꜱ ꜱᴛᴇᴘ ᴛʜᴇ ꜱᴇʀᴠᴇʀ ɢᴏᴇꜱ ɪɴ ᴛʜᴇ ᴡᴀɪᴛɪɴɢ ᴍᴏᴅᴇ , ᴡᴀɪᴛɪɴɢ ꜰᴏʀ ᴡʜᴏᴍ ? , ᴡᴀɪᴛɪɴɢ ꜰᴏʀ ᴛʜᴇ ᴄʟɪᴇɴᴛ ᴛᴏ ᴄᴏᴍᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴀ ᴄᴏɴɴᴇᴄᴛɪᴏɴ.ꜱᴏ ᴛʜᴇ ꜱʏɴᴛᴀx ɪꜱ :-
+ɪɴᴛ ʟɪꜱᴛᴇɴ(ɪɴᴛ ꜱᴏᴄᴋꜰᴅ,ɪɴᴛ ʙᴀᴄᴋʟᴏɢ);
+ᴛʜᴇ ᴛᴇʀᴍ ʙᴀᴄᴋʟᴏɢ ʜᴇʀᴇ ᴍᴇᴀɴꜱ ᴛʜᴀᴛ ᴛʜᴇ ʟɪꜱᴛ ᴏꜰ ᴘᴇɴᴅɪɴɢ ʀᴇQᴜᴇꜱᴛꜱ ꜰᴏʀ ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴄʟɪᴇɴᴛ ᴡɪᴛʜ ꜱᴇʀᴠᴇʀ ᴀɴᴅ ɪꜰ ᴛʜᴇ Qᴜᴇᴜᴇ ɪꜱ ꜰᴜʟʟ ᴛʜᴇɴ ᴛʜᴇ ᴇʀʀᴏʀ ᴄᴏᴍᴇꜱ ᴛʜᴀᴛ ᴇᴄᴏɴɴʀᴇꜰᴜꜱᴇᴅ.
 
+ꜱᴛᴇᴘ 5(ᴀᴄᴄᴇᴘᴛ) :- ɪɴ ᴛʜɪꜱ ꜱᴛᴇᴘ ᴀ ʀᴇQᴜᴇꜱᴛ ꜰʀᴏᴍ ʟɪꜱᴛᴇɴ(ꜱᴛᴇᴘ 4) ɪꜱ ᴛᴀᴋᴇɴ ᴀɴᴅ ᴇxᴛʀᴀᴄᴛᴇᴅ ᴛᴏ ꜰᴜʟꜰɪʟ ᴛʜᴇ ꜰɪʀꜱᴛ ʀᴇQᴜᴇꜱᴛ ᴀɴᴅ ᴏᴜʀ ꜱᴏᴄᴋᴇᴛ ɴᴀᴍᴇᴅ ꜱᴏᴄᴋꜰᴅ ᴄʀᴇᴀᴛᴇꜱ ᴀ ɴᴇᴡ ꜱᴏᴄᴋᴇᴛ ᴀɴᴅ ɢɪᴠᴇꜱ ʙᴀᴄᴋ ᴀ ɴᴇᴡ ꜰɪʟᴇ ᴅᴇꜱᴄʀɪᴘᴛᴏʀ. 
 
-step 4(LISTEN) :- in this step the server goes in the waiting mode , waiting for whom ? , waiting for the client to come and make a connection.So the syntax is :-
-int listen(int sockfd,int backlog);
-the term backlog here means that the list of pending requests for connecting client with server and if the queue is full then the error comes that ECONNREFUSED.
-
-
-step 5(ACCEPT) :- in this step a request from listen(step 4) is taken and extracted to fulfil the first request and our socket named sockfd creates a new socket and gives back a new file descriptor. 
-
-
-🤩🥳 AND NOW YOUR SERVER IS READY TO GO.
-
+🤩🥳 ᴀɴᴅ ɴᴏᴡ ʏᴏᴜʀ ꜱᴇʀᴠᴇʀ ɪꜱ ʀᴇᴀᴅʏ ᴛᴏ ɢᴏ.
