@@ -1,3 +1,3 @@
 # JEC-IndProj-Team-11
-In this project we'll make a peer-to-peer file sharing system , which is similar to or resembles like Bit-Torrent.
-Assignment 1:- To learn how to create a server and client interface aka Socket.
+ɪɴ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴡᴇ'ʟʟ ᴍᴀᴋᴇ ᴀ ᴘᴇᴇʀ-ᴛᴏ-ᴘᴇᴇʀ ꜰɪʟᴇ ꜱʜᴀʀɪɴɢ ꜱʏꜱᴛᴇᴍ , ᴡʜɪᴄʜ ɪꜱ ꜱɪᴍɪʟᴀʀ ᴛᴏ ᴏʀ ʀᴇꜱᴇᴍʙʟᴇꜱ ʟɪᴋᴇ ʙɪᴛ-ᴛᴏʀʀᴇɴᴛ.
+ᴀꜱꜱɪɢɴᴍᴇɴᴛ 1:- ᴛᴏ ʟᴇᴀʀɴ ʜᴏᴡ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ꜱᴇʀᴠᴇʀ ᴀɴᴅ ᴄʟɪᴇɴᴛ ɪɴᴛᴇʀꜰᴀᴄᴇ ᴀᴋᴀ ꜱᴏᴄᴋᴇᴛ.
